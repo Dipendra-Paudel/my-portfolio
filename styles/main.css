@@ -1,0 +1,9 @@
+.hero-section {
+  height: 100vh;
+  min-height: 580px;
+  max-height: 800px;
+}
+
+.social-media-icon {
+  color: #e71111;
+}

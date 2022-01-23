@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Rye&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.name-as-logo {
+  font-family: "Rye", cursive;
+}
+
+.translate-y-mid {
+  transform: translateY(-50%);
+}
