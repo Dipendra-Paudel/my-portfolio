@@ -7,6 +7,8 @@ const Home = () => {
       <HeadTag title="Dipendra Paudel" keywords="Portfolio homepage" />
 
       <HeroSection />
+
+      <div className="min-h-screen" id="skills"></div>
     </div>
   );
 };

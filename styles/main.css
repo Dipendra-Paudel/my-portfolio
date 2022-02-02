@@ -1,9 +1,31 @@
 .hero-section {
-  height: 100vh;
-  min-height: 580px;
-  max-height: 800px;
+  min-height: calc(100vh - 97px);
+}
+
+.hero-section-image-container {
+  max-width: 300px;
 }
 
 .social-media-icon {
   color: #e71111;
+}
+
+.hero-section-social-icons-container {
+  @apply absolute bottom-full pb-2 left-1/2 md:right-full md:pr-2 z-20 md:top-1/2 text-primary;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section-social-icons-container {
+    left: initial;
+    bottom: initial;
+    transform: translateY(-50%);
+  }
+
+  .hero-section {
+    height: calc(100vh - 89px);
+    min-height: 500px;
+    max-height: 650px;
+  }
 }

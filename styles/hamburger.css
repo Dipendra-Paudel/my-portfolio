@@ -1,0 +1,31 @@
+.hamburger-menu {
+  height: 26px;
+  width: 28px;
+}
+.hamburger-menu > div {
+  @apply w-7 h-1 bg-darkColor dark:bg-gray-50 transition-all duration-500 absolute right-0;
+}
+.hamburger-menu > div:nth-child(1) {
+  top: 0;
+}
+.hamburger-menu > div:nth-child(2) {
+  top: 5px;
+}
+
+.hamburger-menu > div:nth-child(3) {
+  top: 14px;
+}
+
+.hamburger-menu > div.rotate-45 {
+  transform: rotate(45deg);
+  top: 11px;
+}
+
+.hamburger-menu > div.rotate-315 {
+  transform: rotate(-45deg);
+  top: 7px;
+}
+.hamburger-menu > div.fade {
+  top: 4px;
+  opacity: 0;
+}

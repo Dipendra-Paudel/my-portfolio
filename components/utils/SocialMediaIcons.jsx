@@ -18,13 +18,15 @@ const socialMediaIcons = [
   },
 ];
 
-const SocialMediaIcons = () => {
+const SocialMediaIcons = ({ classes = "flex space-x-2" }) => {
   return (
-    <div className="flex flex-col space-y-2 social-media-icon">
+    <div
+      className={`${classes} text-secondary dark:text-darkSecondary mode-transition`}
+    >
       {socialMediaIcons.map((socialMedia, index) => {
         const { url, icon } = socialMedia;
         return (
-          <a href={url} key={index} target="_blank">
+          <a href={url} key={index} target="_blank" rel="noreferrer">
             {icon}
           </a>
         );

@@ -1,23 +1,15 @@
-import { createContext, useContext, useState } from "react";
+import Navigation from "../components/ui/Navigation";
+import GlobalThemeContext from "../contexts/ThemeContext";
 import "../styles/globals.css";
 import "../styles/main.css";
-
-const ThemeContext = createContext();
-const ThemeUpdateContext = createContext();
-
-export const useTheme = () => useContext(ThemeContext);
-export const updateTheme = () => useContext(ThemeUpdateContext);
+import "../styles/hamburger.css";
 
 function MyApp({ Component, pageProps }) {
-  const [darkMode, setDarkMode] = useState(true);
-  const toggleDarkMode = () => setDarkMode(!darkMode);
-
   return (
-    <ThemeContext.Provider value={darkMode}>
-      <ThemeUpdateContext.Provider value={toggleDarkMode}>
-        <Component {...pageProps} />
-      </ThemeUpdateContext.Provider>
-    </ThemeContext.Provider>
+    <GlobalThemeContext>
+      <Navigation />
+      <Component {...pageProps} />
+    </GlobalThemeContext>
   );
 }
 
