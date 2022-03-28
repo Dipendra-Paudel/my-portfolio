@@ -29,3 +29,9 @@
     max-height: 650px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    height: calc(100vh - 129px);
+  }
+}
