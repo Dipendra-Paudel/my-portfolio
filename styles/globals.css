@@ -21,7 +21,3 @@ body {
 .translate-x-mid {
   transform: translateX(-50%);
 }
-
-.mode-transition {
-  @apply transition-all duration-500;
-}

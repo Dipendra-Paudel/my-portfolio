@@ -16,7 +16,20 @@
   transform: translateX(-50%);
 }
 
+.hero-section-image-container {
+  max-width: 400px;
+}
+
+@media only screen and (min-width: 400px) {
+  .hero-section-image {
+    height: 340px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
+  .hero-section-image-container {
+    max-width: auto;
+  }
   .hero-section-social-icons-container {
     left: initial;
     bottom: initial;
@@ -30,8 +43,11 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .hero-section {
     height: calc(100vh - 129px);
+  }
+  .hero-section-image {
+    @apply h-96;
   }
 }

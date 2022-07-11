@@ -3,7 +3,7 @@
   width: 28px;
 }
 .hamburger-menu > div {
-  @apply w-7 h-1 bg-darkColor dark:bg-gray-50 transition-all duration-500 absolute right-0;
+  @apply w-7 h-1 bg-black transition-all duration-500 absolute right-0;
 }
 .hamburger-menu > div:nth-child(1) {
   top: 0;

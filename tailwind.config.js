@@ -7,12 +7,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0f7fe7",
+        primary2: "#1871c4",
         secondary: "#e71111",
         darkSecondary: "#c42020",
         darkColor: "#1a1a1a",
       },
     },
   },
-  darkMode: "class",
   plugins: [],
 };

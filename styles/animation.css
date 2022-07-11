@@ -1,0 +1,77 @@
+/* Css curve animation from https://codepen.io/QiviQ/pen/emaJJZ */
+
+.wrap {
+  background-image: linear-gradient(0deg, #221f3f 0%, #1a4e3f 100%);
+}
+.wrap svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.curve {
+  stroke-width: 1px;
+  stroke-opacity: 0;
+}
+.curve path {
+  transform-origin: center 60px;
+}
+.curve path:nth-child(1) {
+  -webkit-animation: curve 6s linear 1.2s infinite;
+  animation: curve 6s linear 1.2s infinite;
+}
+.curve path:nth-child(2) {
+  -webkit-animation: curve 6s linear 2.4s infinite;
+  animation: curve 6s linear 2.4s infinite;
+}
+.curve path:nth-child(3) {
+  -webkit-animation: curve 6s linear 3.6s infinite;
+  animation: curve 6s linear 3.6s infinite;
+}
+.curve path:nth-child(4) {
+  -webkit-animation: curve 6s linear 4.8s infinite;
+  animation: curve 6s linear 4.8s infinite;
+}
+.curve path:nth-child(5) {
+  -webkit-animation: curve 6s linear 6s infinite;
+  animation: curve 6s linear 6s infinite;
+}
+.curve path:nth-child(6) {
+  -webkit-animation: curve 6s linear 7.2s infinite;
+  animation: curve 6s linear 7.2s infinite;
+}
+
+@-webkit-keyframes curve {
+  0% {
+    transform: none;
+    stroke-opacity: 0;
+  }
+  50% {
+    transform: rotateX(360deg) scaleY(0.8);
+    stroke-opacity: 0.4;
+  }
+  70% {
+    /* transform: skewY(-2deg); */
+  }
+  100% {
+    transform: none;
+    stroke-opacity: 0;
+  }
+}
+
+@keyframes curve {
+  0% {
+    transform: none;
+    stroke-opacity: 0;
+  }
+  50% {
+    transform: rotateX(360deg) scaleY(0.8);
+    stroke-opacity: 0.4;
+  }
+  70% {
+    /* transform: skewY(-2deg); */
+  }
+  100% {
+    transform: none;
+    stroke-opacity: 0;
+  }
+} /*# sourceMappingURL=animation.css.map */
