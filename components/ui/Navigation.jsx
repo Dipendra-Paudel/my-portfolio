@@ -17,10 +17,6 @@ const navigationOptions = [
     title: "Projects",
     url: "#projects",
   },
-  {
-    title: "Experience",
-    url: "#experience",
-  },
 ];
 
 const Navigation = () => {

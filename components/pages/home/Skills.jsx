@@ -2,31 +2,31 @@ import Image from "next/image";
 
 const skills = [
   {
-    image: "/images/skills/React-logo.png",
+    image: "/images/skills/Reactjs-40x40.webp",
     title: "React.js",
   },
   {
-    image: "/images/skills/Nextjs-logo.png",
+    image: "/images/skills/Nextjs-40x40.webp",
     title: "Next.js",
   },
   {
-    image: "/images/skills/Javascript-logo.jpg",
+    image: "/images/skills/Javascript-40x40.webp",
     title: "Javascript",
   },
   {
-    image: "/images/skills/tailwindcss-logo.png",
+    image: "/images/skills/TailwindCSS-40x40.webp",
     title: "Tailwind CSS",
   },
   {
-    image: "/images/skills/Javascript-logo.jpg",
+    image: "/images/skills/Nodejs-40x40.webp",
     title: "Node.js",
   },
   {
-    image: "/images/skills/React-logo.png",
+    image: "/images/skills/Expressjs-40x40.webp",
     title: "Express.js",
   },
   {
-    image: "/images/skills/Nextjs-logo.png",
+    image: "/images/skills/MongoDB-40x40.webp",
     title: "MongoDB",
   },
 ];
@@ -49,7 +49,10 @@ const Skills = () => {
                   className="flex-shrink-0 text-gray-700 border w-24 xl:w-28 p-2 cursor-default"
                 >
                   <div className="mx-auto inline-block">
-                    <div className="relative w-10 h-10">
+                    <div
+                      className="relative h-10"
+                      style={{ width: index === 4 ? "60px" : "40px" }}
+                    >
                       <Image src={image} alt={title} layout="fill" />
                     </div>
                   </div>

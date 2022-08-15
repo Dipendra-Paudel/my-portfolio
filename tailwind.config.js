@@ -12,6 +12,12 @@ module.exports = {
         darkSecondary: "#c42020",
         darkColor: "#1a1a1a",
       },
+      width: {
+        92: "23rem",
+      },
+      height: {
+        92: "22rem",
+      },
     },
   },
   plugins: [],

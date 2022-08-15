@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <div className="w-full h-full flex flex-col">
-        <div className="flex-1 px-6 md:px-10 lg:px-20 xl:px-24 py-10">
+        <div className="flex-1 px-6 md:px-10 lg:px-20 xl:px-24 py-10 md:py-16">
           <div className="max-w-7xl mx-auto h-full">
             <div className="space-y-16 md:space-y-0 md:flex items-center justify-between md:space-x-20 h-full">
               <div className="flex-1">
