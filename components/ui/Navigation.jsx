@@ -6,6 +6,10 @@ import Sidebar from "./Sidebar";
 
 const navigationOptions = [
   {
+    title: "Home",
+    url: "/",
+  },
+  {
     title: "About",
     url: "/#about",
   },

@@ -1,3 +1,9 @@
+// email
+// phone number
+// facebook link
+
+import ContactForm from "../../ui/ContactForm";
+
 const Contact = () => {
   return (
     <div
@@ -6,11 +12,11 @@ const Contact = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h1 className="text-2xl font-bold text-primary text-center mb-6 md:mb-10">
-            CONTACT
+          <h1 className="text-2xl font-bold text-primary text-center mb-4 md:mb-6">
+            CONTACT ME
           </h1>
 
-          <div></div>
+          <ContactForm />
         </div>
       </div>
     </div>

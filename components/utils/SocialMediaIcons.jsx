@@ -4,11 +4,11 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 const socialMediaIcons = [
-  {
-    url: "https://www.linkedin.com/in/dipendra-paudel-70342917b",
-    icon: <LinkedInIcon className="social-icon" />,
-    label: "Linkedin",
-  },
+  // {
+  //   url: "https://www.linkedin.com/in/dipendra-paudel-70342917b",
+  //   icon: <LinkedInIcon className="social-icon" />,
+  //   label: "Linkedin",
+  // },
   {
     url: "https://twitter.com/dip_endrapaudel",
     icon: <TwitterIcon className="social-icon" />,

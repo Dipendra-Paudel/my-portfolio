@@ -4,4 +4,8 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  env: {
+    BACKEND_URL: process.env.BACKEND_URL,
+    FRONTEND_TOKEN: process.env.FRONTEND_TOKEN,
+  },
 };
