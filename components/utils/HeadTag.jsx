@@ -8,7 +8,10 @@ const HeadTag = ({ title, keywords }) => {
         name="keywords"
         content={`${keywords}, Dipendra Paudel, Fullstack developer`}
       />
-      <meta name="description" content="Portfolio of Dipendra Paudel" />
+      <meta
+        name="description"
+        content="I am a fullstack developer. I build fully responsive and functional websites as well as build backend servers and create api."
+      />
       <meta name="author" content="Dipendra Paudel" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta

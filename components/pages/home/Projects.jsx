@@ -23,11 +23,11 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h1 className="text-2xl font-bold text-primary text-center mb-6">
+          <h2 className="text-2xl font-bold text-primary text-center mb-6">
             PROJECTS
-          </h1>
+          </h2>
 
-          <div className="grid gap-6 grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center lg:text-lg font-semibold text-gray-700 xl:text-gray-600">
+          <div className="grid gap-6 grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center lg:text-lg font-bold text-gray-700 xl:text-gray-600">
             {projectDetails.map((project, index) => {
               const { image, title } = project;
               return (

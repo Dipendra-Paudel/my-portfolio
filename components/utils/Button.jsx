@@ -7,7 +7,7 @@ export const ContactButton = ({ fullWidth, handleClick = () => {} }) => {
   return (
     <Link href="/#contact" passHref={true}>
       <a
-        className={`inline-block text-white font-semibold relative overflow-hidden group ${
+        className={`inline-block text-white font-bold relative overflow-hidden group ${
           fullWidth ? "w-full" : ""
         }`}
         onClick={handleClick}
@@ -38,7 +38,7 @@ export const ContactButton = ({ fullWidth, handleClick = () => {} }) => {
 export const SubmitButton = ({ handleClick = () => {}, submitting }) => {
   return (
     <button
-      className="focus:outline-none inline-block text-white font-semibold relative overflow-hidden group"
+      className="inline-block text-white font-bold relative overflow-hidden group"
       onClick={handleClick}
     >
       <div className="bg-primary py-3 flex space-x-1 px-8">

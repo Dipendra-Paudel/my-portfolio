@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a:focus, button:focus{
+  outline:none;
+}
+
 html {
   scroll-behavior: smooth;
 }

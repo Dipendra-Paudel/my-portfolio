@@ -6,9 +6,9 @@ const About = () => {
     <div className="px-6 py-10 md:px-10 lg:px-20 xl:px-24 border-t" id="about">
       <div className="max-w-7xl mx-auto">
         <div>
-          <h1 className="text-2xl font-bold text-primary text-center mb-6 md:mb-10">
+          <h2 className="text-2xl font-bold text-primary text-center mb-6 md:mb-10">
             ABOUT ME
-          </h1>
+          </h2>
 
           <div className="space-y-6 md:space-y-0 md:flex md:flex-row-reverse justify-between h-full">
             <div className="flex-1 text-gray-700">
