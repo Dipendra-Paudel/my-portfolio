@@ -11,6 +11,7 @@ module.exports = {
         secondary: "#e71111",
         darkSecondary: "#c42020",
         darkColor: "#1a1a1a",
+        dark: "#274866"
       },
       width: {
         92: "23rem",

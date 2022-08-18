@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import SocialMediaIcons from "../utils/SocialMediaIcons";
 import ImageSplitAnimation from "./ImageSplitAnimation";
 

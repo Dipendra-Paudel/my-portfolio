@@ -125,7 +125,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div>
       <form onSubmit={handleSubmit}>
         <div className="grid sm:grid-cols-2 gap-6">
           {fields.map((field, index) => {
