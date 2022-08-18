@@ -10,7 +10,7 @@ import Footer from "../components/ui/Footer";
 const Home = () => {
   return (
     <div>
-      <HeadTag title="Dipendra Paudel" keywords="Portfolio homepage" />
+      <HeadTag title="Dipendra Paudel -- Fullstack developer" keywords="Portfolio homepage" />
 
       <Navigation />
       <HeroSection />
