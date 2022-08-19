@@ -29,7 +29,7 @@ const SettingsDrawer = ({ open, handleClose, options }) => {
               return (
                 <Link key={index} href={url} passHref={true}>
                   <a
-                    className="hover:text-secondary p-2 pl-4 border-b"
+                    className="hover:text-primary p-2 pl-4 border-b"
                     onClick={handleClose}
                   >
                     {title}

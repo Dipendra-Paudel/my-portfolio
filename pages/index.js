@@ -6,15 +6,17 @@ import Skills from "../components/pages/home/Skills";
 import Projects from "../components/pages/home/Projects";
 import Contact from "../components/pages/home/Contact";
 import Footer from "../components/ui/Footer";
+import WhatToExpectFromMe from "../components/pages/home/WhatToExpectFromMe";
 
 const Home = () => {
   return (
     <div>
-      <HeadTag title="Dipendra Paudel -- Fullstack developer" keywords="Portfolio homepage" />
+      <HeadTag title="Dipendra Paudel -- Fullstack Developer" keywords="Portfolio homepage" />
 
       <Navigation />
       <HeroSection />
       <About />
+      <WhatToExpectFromMe />
       <Skills />
       <Projects />
       <Contact />

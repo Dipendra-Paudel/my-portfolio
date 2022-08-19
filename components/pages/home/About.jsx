@@ -1,31 +1,26 @@
-import Image from "next/image";
 import ImageSplitAnimation from "../../ui/ImageSplitAnimation";
 
 const About = () => {
   return (
-    <div className="px-6 py-10 md:px-10 lg:px-20 xl:px-24 border-t" id="about">
+    <div
+      className="px-6 py-10 md:py-12 md:px-10 lg:px-20 xl:px-24 border-t"
+      id="about"
+    >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h2 className="text-2xl font-bold text-primary text-center mb-6 md:mb-10">
-            ABOUT ME
-          </h2>
-
           <div className="space-y-6 md:space-y-0 md:flex md:flex-row-reverse justify-between h-full">
-            <div className="flex-1 text-gray-700">
-              <div className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae eveniet quibusdam architecto hic, voluptate vitae
-                corrupti, quia nam voluptates debitis quo tenetur culpa
-                perspiciatis deleniti iste velit amet ipsam consequatur adipisci
-                tempora quos aperiam. At necessitatibus, ipsa repudiandae a
-                magnam ab natus doloribus quidem cupiditate molestias, ex
-                voluptatem eius? Minima totam dolorem sed velit tempore at, eos,
-                quod cumque veritatis fuga maxime dignissimos, nesciunt ab
-                ducimus ea soluta quos est molestias laborum enim! Ab laudantium
-                accusantium exercitationem, unde delectus numquam vel dicta,
-                eaque tenetur hic, temporibus perferendis natus illum. Nam
-                pariatur repudiandae laboriosam blanditiis tempora dolor
-                sapiente eos veniam deleniti!
+            <div className="flex-1 space-y-2 xl:space-y-4">
+              <h3 className="text-xl text-primary font-bold">ABOUT ME</h3>
+
+              <h1 className="text-4xl xl:text-5xl font-bold text-darkColor">
+                Fullstack Developer
+              </h1>
+
+              <div className="text-justify text-gray-600">
+                I am a professional React.js and Next.js developer. I also build
+                backend servers and api using Node.js and Express.js. I have
+                been involved in this field for more than 3 years with 1 year of
+                professional experience and done more than 10 projects.
               </div>
             </div>
 

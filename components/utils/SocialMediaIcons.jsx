@@ -33,7 +33,7 @@ const SocialMediaIcons = ({ classes = "flex space-x-2", footer }) => {
             target="_blank"
             rel="noreferrer"
             aria-label={label}
-            className={footer ? "text-gray-100" : "hover:text-primary"}
+            className={footer ? "text-gray-100" : "hover:text-primaryDark"}
           >
             {icon}
           </a>

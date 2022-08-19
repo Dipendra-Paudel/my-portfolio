@@ -23,11 +23,11 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h2 className="text-2xl font-bold text-primary text-center mb-6">
+          <h3 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             PROJECTS
-          </h2>
+          </h3>
 
-          <div className="grid gap-6 grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center lg:text-lg font-bold text-gray-700 xl:text-gray-600">
+          <div className="grid gap-6 grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center">
             {projectDetails.map((project, index) => {
               const { image, title } = project;
               return (
@@ -41,7 +41,9 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <div className="p-1 xl:p-2">{title}</div>
+                  <div className="p-1 xl:p-2 font-bold text-gray-700 lg:text-lg">
+                    {title}
+                  </div>
                 </div>
               );
             })}
