@@ -12,10 +12,10 @@ const HeroSection = () => {
               <div className="flex-1">
                 <div className="space-y-4">
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold text-gray-600">Hey,</h3>
-                    <h2 className="text-3xl xl:text-5xl font-bold text-darkColor">
+                    <div className="text-xl font-bold text-gray-600">Hey,</div>
+                    <h1 className="text-3xl xl:text-5xl font-bold text-darkColor">
                       {"It's me Dipendra Paudel"}
-                    </h2>
+                    </h1>
                   </div>
                   <div className="text-justify lg:text-left text-gray-600">
                     I am a full stack developer. I build fully responsive and

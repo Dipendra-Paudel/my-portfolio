@@ -12,9 +12,9 @@ const About = () => {
             <div className="flex-1 space-y-2 xl:space-y-4">
               <h3 className="text-xl text-primary font-bold">ABOUT ME</h3>
 
-              <h1 className="text-4xl xl:text-5xl font-bold text-darkColor">
+              <h2 className="text-4xl xl:text-5xl font-bold text-darkColor">
                 Fullstack Developer
-              </h1>
+              </h2>
 
               <div className="text-justify text-gray-600">
                 I am a professional React.js and Next.js developer. I also build
