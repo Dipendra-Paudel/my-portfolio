@@ -26,9 +26,9 @@ const WhatToExpectFromMe = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h3 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
+          <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             WHAT TO EXPECT FROM ME
-          </h3>
+          </div>
 
           <div className="grid gap-6 sm:grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center md:items-start">
             {expectations.map((project, index) => {

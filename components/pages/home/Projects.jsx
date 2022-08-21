@@ -23,17 +23,17 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <h3 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
+          <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             PROJECTS
-          </h3>
+          </div>
 
-          <div className="grid gap-6 grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center">
+          <div className="grid gap-6 grid-cols-2 md:flex md:space-x-6 md:justify-center">
             {projectDetails.map((project, index) => {
               const { image, title } = project;
               return (
                 <div
                   key={index}
-                  className="flex-shrink-0 text-center cursor-default w-36 sm:w-56 md:w-48 lg:w-60 xl:w-72 border"
+                  className="mx-auto md:mx-0 flex-shrink-0 text-center cursor-default w-36 sm:w-56 md:w-48 lg:w-60 xl:w-72 border"
                 >
                   <div className="w-full h-36 sm:h-56 md:h-48 lg:h-60 xl:h-72 border-b border-white">
                     <div className="relative mx-auto w-full h-full border-b">
