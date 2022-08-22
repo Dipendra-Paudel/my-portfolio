@@ -13,6 +13,18 @@ const projectDetails = [
     image: "/images/projects/realtime-chat-application.webp",
     title: "Realtime chat application",
   },
+  {
+    image: "/images/projects/mister-computer-solutions.webp",
+    title: "Mister Computer Solutions",
+  },
+  {
+    image: "/images/projects/iris-news.webp",
+    title: "Iris News",
+  },
+  {
+    image: "/images/projects/realtime-chat-application.webp",
+    title: "Realtime chat application",
+  },
 ];
 
 const Projects = () => {
