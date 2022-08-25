@@ -40,10 +40,9 @@ export const DownloadCVButton = () => {
   return (
     <a
       href="/files/Dipendra Paudel.docx"
-      target="_blank"
       className="inline-block text-white font-bold relative overflow-hidden group"
     >
-      <div className="bg-primary py-3 flex space-x-1 px-6">
+      <div className="bg-primary py-3 flex space-x-1 px-8">
         <div>
           <FileDownloadIcon />
         </div>
