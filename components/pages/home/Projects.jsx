@@ -2,15 +2,23 @@ import Image from "next/image";
 
 const projectDetails = [
   {
-    image: "/images/projects/mister-computer-solutions.webp",
+    image: "/images/projects/Mister-Computer-Solutions.webp",
     title: "Mister Computer Solutions",
   },
   {
-    image: "/images/projects/iris-news.webp",
+    image: "/images/projects/The-Momo-World.webp",
+    title: "The Momo World",
+  },
+  {
+    image: "/images/projects/Pwnbot-Systems.webp",
+    title: "Pwnbot Systems",
+  },
+  {
+    image: "/images/projects/Iris-News.webp",
     title: "Iris News",
   },
   {
-    image: "/images/projects/realtime-chat-application.webp",
+    image: "/images/projects/Realtime-Chat-Application.webp",
     title: "Realtime chat application",
   },
 ];
@@ -22,31 +30,35 @@ const Projects = () => {
       id="projects"
     >
       <div className="max-w-7xl mx-auto">
-        <div>
+        <div className="mx-auto">
           <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             PROJECTS
           </div>
 
-          <div className="grid gap-6 grid-cols-2 md:flex md:space-x-6 md:justify-center">
-            {projectDetails.map((project, index) => {
-              const { image, title } = project;
-              return (
-                <div
-                  key={index}
-                  className="mx-auto md:mx-0 flex-shrink-0 text-center cursor-default w-36 sm:w-56 md:w-48 lg:w-60 xl:w-72 border"
-                >
-                  <div className="w-full h-36 sm:h-56 md:h-48 lg:h-60 xl:h-72 border-b border-white">
-                    <div className="relative mx-auto w-full h-full border-b">
-                      <Image src={image} alt={title} layout="fill" />
+          <div className="flex justify-center">
+            <div className="grid gap-6 sm:grid-cols-2 sm:gap-10 md:grid-cols-3 lg:gap-10">
+              {projectDetails.map((project, index) => {
+                const { image, title } = project;
+                return (
+                  <div
+                    key={index}
+                    className="relative mx-auto md:mx-0 flex-shrink-0 text-center cursor-default w-56 sm:w-68 md:w-52 lg:w-64 xl:w-80 border group"
+                  >
+                    <div className="w-full h-56 sm:h-68 md:h-52 lg:h-64 xl:h-80 border-b border-white">
+                      <div className="relative mx-auto w-full h-full border-b">
+                        <Image src={image} alt={title} layout="fill" />
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="p-1 xl:p-2 font-bold text-gray-700 lg:text-lg">
-                    {title}
+                    <div className="p-1 xl:p-2 font-bold text-gray-700 lg:text-lg">
+                      {title}
+                    </div>
+
+                    <div className="absolute left-0 top-0 w-full h-full group-hover:bg-black group-hover:bg-opacity-50 transition-all duration-300 cursor-pointer"></div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

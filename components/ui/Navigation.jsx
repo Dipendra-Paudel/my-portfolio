@@ -15,11 +15,11 @@ const navigationOptions = [
   },
   {
     title: "Skills",
-    url: "#skills",
+    url: "/#skills",
   },
   {
     title: "Projects",
-    url: "#projects",
+    url: "/#projects",
   },
 ];
 

@@ -20,7 +20,7 @@ const About = () => {
                 I am a professional React.js and Next.js developer. I also build
                 backend servers and api using Node.js and Express.js. I have
                 been involved in this field for more than 4 years with 1 year of
-                professional experience and done more than 10 projects.
+                professional experience and done more than 15 projects.
               </div>
             </div>
 

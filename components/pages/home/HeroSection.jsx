@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactButton } from "../../utils/Button";
+import { DownloadCVButton } from "../../utils/Button";
 import ImageSkillAnimation from "../../ui/ImageSkillAnimation";
 
 const HeroSection = () => {
@@ -23,7 +23,7 @@ const HeroSection = () => {
                     create api.
                   </div>
                   <div className="inline-block pt-2">
-                    <ContactButton />
+                    <DownloadCVButton />
                   </div>
                 </div>
               </div>

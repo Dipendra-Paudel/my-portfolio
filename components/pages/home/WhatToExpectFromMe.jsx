@@ -30,27 +30,29 @@ const WhatToExpectFromMe = () => {
             WHAT TO EXPECT FROM ME
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 md:flex md:justify-center md:space-x-6 place-items-center md:items-start">
-            {expectations.map((project, index) => {
-              const { image, title, description } = project;
-              return (
-                <div
-                  key={index}
-                  className="flex-shrink-0 text-center cursor-default w-36 sm:w-56 md:w-48 lg:w-60 xl:w-72 space-y-2"
-                >
-                  <div className="w-36 h-36 mx-auto">
-                    <div className="relative mx-auto w-full h-full">
-                      <Image src={image} alt={title} layout="fill" />
+          <div className="flex justify-center">
+            <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+              {expectations.map((project, index) => {
+                const { image, title, description } = project;
+                return (
+                  <div
+                    key={index}
+                    className="flex-shrink-0 text-center cursor-default w-36 sm:w-56 md:w-48 lg:w-60 xl:w-72 space-y-2"
+                  >
+                    <div className="w-36 h-36 mx-auto">
+                      <div className="relative mx-auto w-full h-full">
+                        <Image src={image} alt={title} layout="fill" />
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="px-1 xl:px-2 font-bold text-gray-700 lg:text-lg">
-                    {title}
+                    <div className="px-1 xl:px-2 font-bold text-gray-700 lg:text-lg">
+                      {title}
+                    </div>
+                    <div className="text-sm text-gray-600">{description}</div>
                   </div>
-                  <div className="text-sm text-gray-600">{description}</div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import Loader from "./Loader";
 
@@ -35,7 +36,32 @@ export const ContactButton = ({ fullWidth, handleClick = () => {} }) => {
   );
 };
 
-export const SubmitButton = ({ handleClick = () => {}, submitting }) => {
+export const DownloadCVButton = () => {
+  return (
+    <a
+      href="/files/Dipendra Paudel.docx"
+      target="_blank"
+      className="inline-block text-white font-bold relative overflow-hidden group"
+    >
+      <div className="bg-primary py-3 flex space-x-1 px-6">
+        <div>
+          <FileDownloadIcon />
+        </div>
+        <div className="pt-0.5">Download CV</div>
+      </div>
+
+      {/* Animation text */}
+      <div className="absolute right-full translate-x-full top-0 w-1/2 h-full flex items-center justify-end transition-all duration-700 group-hover:-translate-x-full bg-primary2">
+        Downl
+      </div>
+      <div className="absolute left-full -translate-x-full top-0 w-1/2 h-full flex items-center transition-all duration-700 group-hover:translate-x-full bg-primary2">
+        oad CV
+      </div>
+    </a>
+  );
+};
+
+export const SubmitButton = ({ handleClick, submitting }) => {
   return (
     <button
       className="inline-block text-white font-bold relative overflow-hidden group"
