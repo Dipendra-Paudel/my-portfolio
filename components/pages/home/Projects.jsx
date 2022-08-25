@@ -42,7 +42,7 @@ const Projects = () => {
                 return (
                   <div
                     key={index}
-                    className="relative mx-auto md:mx-0 flex-shrink-0 text-center cursor-default w-56 sm:w-68 md:w-52 lg:w-64 xl:w-80 border group"
+                    className="relative mx-auto md:mx-0 flex-shrink-0 text-center cursor-default w-56 sm:w-68 md:w-52 lg:w-64 xl:w-80 border"
                   >
                     <div className="w-full h-56 sm:h-68 md:h-52 lg:h-64 xl:h-80 border-b border-white">
                       <div className="relative mx-auto w-full h-full border-b">
@@ -53,8 +53,6 @@ const Projects = () => {
                     <div className="p-1 xl:p-2 font-bold text-gray-700 lg:text-lg">
                       {title}
                     </div>
-
-                    <div className="absolute left-0 top-0 w-full h-full group-hover:bg-black group-hover:bg-opacity-50 transition-all duration-300 cursor-pointer"></div>
                   </div>
                 );
               })}
