@@ -45,9 +45,9 @@ const WhatToExpectFromMe = () => {
                       </div>
                     </div>
 
-                    <div className="px-1 xl:px-2 font-bold text-gray-700 lg:text-lg">
+                    <b className="px-1 xl:px-2 text-gray-700 lg:text-lg">
                       {title}
-                    </div>
+                    </b>
                     <div className="text-sm text-gray-600">{description}</div>
                   </div>
                 );

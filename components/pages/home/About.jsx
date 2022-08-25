@@ -30,9 +30,7 @@ const About = () => {
               </div>
 
               <div className="pt-4">
-                <h3 className="font-bold text-lg">
-                  Curious to know more about me?
-                </h3>
+                <b className="text-lg">Curious to know more about me?</b>
                 <div className="text-justify">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Commodi doloribus, reprehenderit aliquid explicabo veniam

@@ -50,9 +50,9 @@ const Projects = () => {
                       </div>
                     </div>
 
-                    <div className="p-1 xl:p-2 font-bold text-gray-700 lg:text-lg">
+                    <b className="p-1 xl:p-2 text-gray-700 lg:text-lg">
                       {title}
-                    </div>
+                    </b>
                   </div>
                 );
               })}
