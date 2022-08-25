@@ -1,5 +1,11 @@
 import React from "react";
-import { LinkedinIcon, TwitterIcon, TelegramIcon } from "react-share";
+import {
+  LinkedinIcon,
+  TwitterIcon,
+  TelegramIcon,
+  EmailIcon,
+  FacebookIcon,
+} from "react-share";
 
 const socialMediaIcons = [
   {
@@ -15,6 +21,16 @@ const socialMediaIcons = [
   {
     url: "https://t.me/dipen_dra",
     icon: <TelegramIcon size={32} round={true} />,
+    label: "Twitter",
+  },
+  {
+    url: "https://twitter.com/dip_endrapaudel",
+    icon: <EmailIcon size={32} round={true} />,
+    label: "Twitter",
+  },
+  {
+    url: "https://t.me/dipen_dra",
+    icon: <FacebookIcon size={32} round={true} />,
     label: "Twitter",
   },
 ];
