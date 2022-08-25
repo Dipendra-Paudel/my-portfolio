@@ -14,11 +14,11 @@ const About = () => {
           <div className="space-y-6 md:space-y-0 md:flex md:flex-row-reverse justify-between h-full">
             <div className="flex-1 text-gray-600">
               <div className="space-y-2 xl:space-y-4">
-                <h2 className="text-xl text-primary font-bold">ABOUT ME</h2>
+                <b className="text-xl text-primary font-bold">ABOUT ME</b>
 
-                <h3 className="text-4xl xl:text-5xl font-bold text-darkColor">
+                <h2 className="text-4xl xl:text-5xl font-bold text-darkColor">
                   Fullstack Developer
-                </h3>
+                </h2>
 
                 <div className="text-justify">
                   I am a professional React.js and Next.js developer. I also

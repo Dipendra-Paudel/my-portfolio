@@ -12,7 +12,7 @@ const HeroSection = () => {
               <div className="flex-1">
                 <div className="space-y-4">
                   <div className="space-y-2">
-                    <b className="text-xl text-gray-600">Hey,</b>
+                    <div className="text-xl font-bold text-gray-600">Hey,</div>
                     <h1 className="text-3xl xl:text-5xl font-bold text-darkColor">
                       {"It's me Dipendra Paudel"}
                     </h1>
