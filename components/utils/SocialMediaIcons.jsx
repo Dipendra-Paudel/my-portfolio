@@ -1,23 +1,21 @@
 import React from "react";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { LinkedinIcon, TwitterIcon, TelegramIcon } from "react-share";
 
 const socialMediaIcons = [
   {
     url: "https://www.linkedin.com/in/dipendra-paudel-750267249/",
-    icon: <LinkedInIcon className="social-icon" />,
+    icon: <LinkedinIcon size={32} round={true} />,
     label: "Linkedin",
   },
   {
     url: "https://twitter.com/dip_endrapaudel",
-    icon: <TwitterIcon className="social-icon" />,
+    icon: <TwitterIcon size={32} round={true} />,
     label: "Twitter",
   },
   {
-    url: "https://github.com/Dipendra-Paudel",
-    icon: <GitHubIcon className="social-icon" />,
-    label: "Github",
+    url: "https://t.me/dipen_dra",
+    icon: <TelegramIcon size={32} round={true} />,
+    label: "Twitter",
   },
 ];
 
