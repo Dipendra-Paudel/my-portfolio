@@ -12,9 +12,9 @@ const Contact = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <div className="text-xl text-primary font-bold mb-6 text-center">
+          <h2 className="text-xl text-primary font-bold mb-6 text-center">
             CONTACT ME
-          </div>
+          </h2>
 
           <ContactForm />
         </div>

@@ -26,9 +26,9 @@ const WhatToExpectFromMe = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div>
-          <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
+          <h2 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             WHAT TO EXPECT FROM ME
-          </div>
+          </h2>
 
           <div className="flex justify-center">
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">

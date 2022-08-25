@@ -40,9 +40,9 @@ const Skills = () => {
     <div className="px-6 py-10 md:px-10 lg:px-20 xl:px-24 border-t" id="skills">
       <div className="max-w-7xl mx-auto">
         <div>
-          <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
+          <h2 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             SKILLS
-          </div>
+          </h2>
 
           <div className="flex justify-center">
             <div className="grid gap-6 grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 text-sm text-center">

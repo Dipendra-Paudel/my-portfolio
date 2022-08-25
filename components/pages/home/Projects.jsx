@@ -31,9 +31,9 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div className="mx-auto">
-          <div className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
+          <h2 className="text-xl text-primary font-bold mb-6 md:mb-8 text-center">
             PROJECTS
-          </div>
+          </h2>
 
           <div className="flex justify-center">
             <div className="grid gap-6 sm:grid-cols-2 sm:gap-10 md:grid-cols-3 lg:gap-10">
