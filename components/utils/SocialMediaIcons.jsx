@@ -21,34 +21,6 @@ const socialMediaIcons = [
       </TwitterShareButton>
     ),
   },
-  {
-    component: (
-      <LinkedinShareButton url="https://www.linkedin.com/in/dipendra-paudel-750267249/">
-        <LinkedinIcon size={32} round />
-      </LinkedinShareButton>
-    ),
-  },
-  {
-    component: (
-      <TwitterShareButton url="https://twitter.com/dip_endrapaudel">
-        <TwitterIcon size={32} round />
-      </TwitterShareButton>
-    ),
-  },
-  {
-    component: (
-      <LinkedinShareButton url="https://www.linkedin.com/in/dipendra-paudel-750267249/">
-        <LinkedinIcon size={32} round />
-      </LinkedinShareButton>
-    ),
-  },
-  {
-    component: (
-      <TwitterShareButton url="https://twitter.com/dip_endrapaudel">
-        <TwitterIcon size={32} round />
-      </TwitterShareButton>
-    ),
-  },
 ];
 
 const SocialMediaIcons = ({ classes = "flex space-x-2", footer }) => {
