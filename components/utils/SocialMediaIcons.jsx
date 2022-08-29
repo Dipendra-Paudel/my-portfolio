@@ -1,25 +1,16 @@
 import React from "react";
-import {
-  LinkedinShareButton,
-  LinkedinIcon,
-  TwitterShareButton,
-  TwitterIcon,
-} from "react-share";
+import { LinkedinIcon, TwitterIcon } from "react-share";
 
 const socialMediaIcons = [
   {
-    component: (
-      <LinkedinShareButton url="https://www.linkedin.com/in/dipendra-paudel-750267249/">
-        <LinkedinIcon size={32} round />
-      </LinkedinShareButton>
-    ),
+    url: "https://www.linkedin.com/in/dipendra-paudel-750267249/",
+    icon: <LinkedinIcon size={32} round={true} />,
+    label: "Linkedin",
   },
   {
-    component: (
-      <TwitterShareButton url="https://twitter.com/dip_endrapaudel">
-        <TwitterIcon size={32} round />
-      </TwitterShareButton>
-    ),
+    url: "https://twitter.com/dip_endrapaudel",
+    icon: <TwitterIcon size={32} round={true} />,
+    label: "Twitter",
   },
 ];
 
@@ -27,8 +18,19 @@ const SocialMediaIcons = ({ classes = "flex space-x-2", footer }) => {
   return (
     <div className={`${classes} ${footer ? "" : "text-gray-600"}`}>
       {socialMediaIcons.map((socialMedia, index) => {
-        const { component } = socialMedia;
-        return <div key={index}>{component}</div>;
+        const { url, icon, label } = socialMedia;
+        return (
+          <a
+            href={url}
+            key={index}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={label}
+            className={footer ? "text-gray-100" : "hover:text-primaryDark"}
+          >
+            {icon}
+          </a>
+        );
       })}
     </div>
   );

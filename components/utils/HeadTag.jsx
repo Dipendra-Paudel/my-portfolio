@@ -17,10 +17,7 @@ const HeadTag = ({ title, keywords }) => {
       <link rel="icon" href="/favicon.ico" />
       <link rel="shortcut icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" href="/favicon.ico" />
-      <meta
-        property="og:url"
-        content="https://gleeful-sunburst-11c795.netlify.app"
-      />
+      <meta property="og:url" content="Dipendra Paudel" />
       <meta property="og:type" content="portfolio" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />

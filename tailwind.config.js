@@ -12,6 +12,7 @@ module.exports = {
         darkColor: "#1c1b1b",
       },
       width: {
+        50: "12.5rem",
         92: "23rem",
       },
       height: {
